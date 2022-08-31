@@ -1,0 +1,22 @@
+# For more information, run:
+#   $ gcloud topic gcloudignore
+#
+.gcloudignore
+.hgignore
+
+# Python pycache:
+__pycache__/
+# Ignored by the build system
+/setup.cfg
+
+public
+node_modules
+src
+package-lock.json
+package.json
+README.md
+logs.sh
+Makefile
+
+.firebaserc
+functions
