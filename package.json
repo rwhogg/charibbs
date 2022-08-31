@@ -1,0 +1,58 @@
+{
+    "name": "charibb-client",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@emotion/react": "^11.9.3",
+        "@emotion/styled": "^11.9.3",
+        "@mui/icons-material": "^5.8.4",
+        "@mui/material": "^5.8.4",
+        "firebase": "^9.8.3",
+        "nanoid": "^4.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.3.0",
+        "react-scripts": "5.0.1",
+        "reactfire": "^4.2.1",
+        "styled-components": "^5.3.5"
+    },
+    "homepage": "/static",
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app"
+        ],
+        "rules": {
+            "indent": [
+                "warn",
+                4
+            ],
+            "semi": [
+                "warn",
+                "never"
+            ],
+            "quotes": [
+                "warn",
+                "double"
+            ],
+            "no-trailing-spaces": "warn",
+            "no-restricted-globals": "off"
+        }
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version"
+        ]
+    },
+    "devDependencies": {
+        "eslint": "^8.18.0"
+    }
+}
