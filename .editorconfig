@@ -1,0 +1,14 @@
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+charset = utf-8
+max_line_length = 120
+
+# Normally this would be true, but with autosaving it's very annoying
+trim_trailing_whitespace = false
+
+[Makefile]
+indent_style = tab
+
