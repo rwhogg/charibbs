@@ -1,0 +1,9 @@
+runtime: python38
+
+handlers:
+    - url: /static/index.html/.*
+      script: main.py
+    - url: /static
+      static_dir: build
+    - url: /
+      script: main.py
